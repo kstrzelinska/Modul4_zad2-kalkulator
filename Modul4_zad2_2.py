@@ -1,5 +1,5 @@
 import logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO, force=True)
 
 dzialanie = input("Podaj działanie, posługując się odpowiednią liczbą: \n Dodawanie - napisz: 1\n Odejmowanie - napisz: 2\n Mnożenie -napisz: 3\n Dzielenie - napisz: 4\n ")
 num1 = input("Podaj składnik 1: " )
